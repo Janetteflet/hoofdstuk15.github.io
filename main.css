@@ -33,6 +33,9 @@ footer{
     h1{
     margin-left: 200px;
     }
+main{
+        background-color: antiquewhite;
+}
     body{
         text-align: center;
         margin-top: 0px;
@@ -40,14 +43,5 @@ footer{
         margin-bottom: 0px;
         margin-left: 50px;
         padding: 5px 5px 5px 5px;
-    }
-    html::before {
-        content: "";
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
         background-color: lightblue;
-        z-index: -1;
-      }
+    }
